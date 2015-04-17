@@ -6,7 +6,9 @@ This project contains demonstration scripts for the Consuming REST Services cour
 
 This project is only meant to illustrate the scenario of using a queue object to distribute work to multiple workers.  In a real production environment, you would store the results in a WORM store and would have to contend with other issues such as API rate limiting.
 
-Additionally, the code provided would need to be enhanced (at a minimum) with proper exception handling, logging, and configuration data management (to remove the API key from source code).  These features were left out in order to focus on the core functionality for demonstration.
+Additionally, the code provided would need to be enhanced (at a minimum) with proper exception handling, logging, and configuration data management (to remove the API key from source code).  These features were left out in order to focus on the core functionality for demonstration purposes.
+
+Should you require this type of distributed task system, I would recommended you look into [Celery](http://celery.readthedocs.org/en/latest/), a distributed task queue written in Python.
 
 
 # Setup
