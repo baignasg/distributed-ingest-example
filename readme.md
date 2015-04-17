@@ -4,7 +4,9 @@ This project contains demonstration scripts for the Consuming REST Services cour
 
 ## Disclaimer
 
-This project is only meant to illustrate the scenario of using a queue object to distribute work to multiple workers.  In a real production environment, you would store the results in a WORM store and would have to contend with other issues such as API rate limiting.  Additionally, the code provided would need to be enhanced (at a minimum) with proper exception handling, logging, and configuration data management (to remove the API key from source code).
+This project is only meant to illustrate the scenario of using a queue object to distribute work to multiple workers.  In a real production environment, you would store the results in a WORM store and would have to contend with other issues such as API rate limiting.
+
+Additionally, the code provided would need to be enhanced (at a minimum) with proper exception handling, logging, and configuration data management (to remove the API key from source code).  These features were left out in order to focus on the core functionality for demonstration.
 
 
 # Setup
