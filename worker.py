@@ -37,7 +37,7 @@ import requests
 ##########################################################################
 
 # enter your sunlight foundation API key below
-API_KEY = ''
+API_KEY = '6673d9acee0e41b8ae816a7f9ab18e66'
 
 QUEUE_NAME = 'rest-ingestion-course'
 WORDS_API_URL = 'http://capitolwords.org/api/1/phrases/legislator.json'
